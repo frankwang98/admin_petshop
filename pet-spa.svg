@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
+  <title id="title">宠物洗护插画</title>
+  <desc id="desc">小狗在浴盆中接受泡泡洗护</desc>
+  <rect width="720" height="560" fill="none"/>
+  <ellipse cx="360" cy="486" rx="236" ry="34" fill="#d7e8e2"/>
+  <path d="M160 285h400l-38 168c-8 36-40 62-77 62H275c-37 0-69-26-77-62l-38-168Z" fill="#7da9d8"/>
+  <path d="M184 310h352l-30 128c-6 27-30 46-58 46H272c-28 0-52-19-58-46l-30-128Z" fill="#9fd8cb"/>
+  <path d="M145 268c0-22 18-40 40-40h350c22 0 40 18 40 40v20H145v-20Z" fill="#20302f"/>
+  <circle cx="212" cy="219" r="32" fill="#ffffff"/>
+  <circle cx="250" cy="202" r="26" fill="#ffffff"/>
+  <circle cx="292" cy="217" r="34" fill="#ffffff"/>
+  <circle cx="513" cy="214" r="30" fill="#ffffff"/>
+  <circle cx="472" cy="195" r="24" fill="#ffffff"/>
+  <circle cx="430" cy="218" r="31" fill="#ffffff"/>
+  <circle cx="582" cy="157" r="18" fill="#ffffff" opacity=".85"/>
+  <circle cx="117" cy="178" r="16" fill="#ffffff" opacity=".85"/>
+  <circle cx="541" cy="99" r="11" fill="#ffffff" opacity=".85"/>
+  <path d="M290 166c-7-52 28-96 70-96s77 44 70 96l-12 92H302l-12-92Z" fill="#f6c06d"/>
+  <path d="M305 123c-39-28-82-13-95 28-12 39 11 73 50 75 11-41 26-75 45-103Z" fill="#8f5d49"/>
+  <path d="M415 123c39-28 82-13 95 28 12 39-11 73-50 75-11-41-26-75-45-103Z" fill="#8f5d49"/>
+  <path d="M302 186c0-46 26-82 58-82s58 36 58 82-26 82-58 82-58-36-58-82Z" fill="#f8d08b"/>
+  <circle cx="337" cy="177" r="9" fill="#20302f"/>
+  <circle cx="383" cy="177" r="9" fill="#20302f"/>
+  <path d="M358 194c7-6 17-6 24 0-2 13-8 20-12 20s-10-7-12-20Z" fill="#20302f"/>
+  <path d="M342 225c13 13 43 13 56 0" fill="none" stroke="#20302f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M269 330c19 25 58 32 87 15M451 330c-19 25-58 32-87 15" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round"/>
+  <path d="M184 295h352" stroke="#ffffff" stroke-width="12" stroke-linecap="round" opacity=".55"/>
+  <circle cx="234" cy="285" r="18" fill="#ffffff"/>
+  <circle cx="488" cy="282" r="15" fill="#ffffff"/>
+  <circle cx="385" cy="278" r="22" fill="#ffffff"/>
+  <path d="M552 308c42 7 67 27 75 61" fill="none" stroke="#f58f7c" stroke-width="18" stroke-linecap="round"/>
+  <path d="M603 376c15-5 29 3 34 18s-3 30-18 35-30-3-35-18 3-30 19-35Z" fill="#ffd36e"/>
+</svg>

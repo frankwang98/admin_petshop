@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>泡泡爪宠物洗护店</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="泡泡爪宠物洗护店首页">
+        <span class="brand-mark">P</span>
+        <span>泡泡爪</span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#services">服务</a>
+        <a href="#pricing">价格</a>
+        <a href="#team">护理师</a>
+        <a href="#booking">预约</a>
+      </nav>
+      <a class="header-action" href="#booking">立即预约</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Pet Spa & Grooming</p>
+          <h1>把毛孩子洗得香香软软，也照顾它的小情绪。</h1>
+          <p class="hero-text">
+            温和洗护、精修造型、皮毛护理和幼宠适应训练，一次预约完成从清洁到放松的全流程照护。
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#booking">预约洗护</a>
+            <a class="secondary-button" href="#pricing">查看套餐</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="宠物洗护插画">
+          <img src="./pet-spa.svg" alt="小狗在泡泡浴盆中洗护" />
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="门店特点">
+        <div>
+          <strong>1 对 1</strong>
+          <span>独立洗护间</span>
+        </div>
+        <div>
+          <strong>38°C</strong>
+          <span>恒温吹护</span>
+        </div>
+        <div>
+          <strong>可视化</strong>
+          <span>护理进度同步</span>
+        </div>
+        <div>
+          <strong>低刺激</strong>
+          <span>植物系洗护用品</span>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2>常用服务</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <span>洗</span>
+            <h3>基础香氛洗护</h3>
+            <p>梳毛、洗澡、吹干、耳道清洁、指甲修剪，适合日常清洁维护。</p>
+          </article>
+          <article class="service-card">
+            <span>剪</span>
+            <h3>精修造型</h3>
+            <p>按品种和毛量设计圆脸、泰迪装、短毛清爽装等实用造型。</p>
+          </article>
+          <article class="service-card">
+            <span>护</span>
+            <h3>皮毛舒缓护理</h3>
+            <p>针对干燥、打结、换毛期和敏感皮肤，提供更温和的护理方案。</p>
+          </article>
+          <article class="service-card">
+            <span>幼</span>
+            <h3>幼宠适应课</h3>
+            <p>用低压步骤帮助幼宠熟悉水声、吹风和触碰，减少未来洗护抗拒。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="pricing" class="section pricing-section">
+        <div class="section-heading">
+          <p class="eyebrow">Packages</p>
+          <h2>套餐价格</h2>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <h3>小型犬 / 猫咪</h3>
+            <p class="price">¥88 起</p>
+            <ul>
+              <li>基础洗护 60-90 分钟</li>
+              <li>免费基础毛结评估</li>
+              <li>适合 8kg 以内宠物</li>
+            </ul>
+          </article>
+          <article class="price-card featured">
+            <h3>精致洗护造型</h3>
+            <p class="price">¥168 起</p>
+            <ul>
+              <li>基础洗护 + 局部精修</li>
+              <li>护理后照片反馈</li>
+              <li>热门犬种推荐</li>
+            </ul>
+          </article>
+          <article class="price-card">
+            <h3>深层皮毛护理</h3>
+            <p class="price">¥228 起</p>
+            <ul>
+              <li>舒缓浴液和护毛流程</li>
+              <li>换毛期梳理</li>
+              <li>适合敏感和长毛宠物</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="team" class="section split-section">
+        <div>
+          <p class="eyebrow">Care Team</p>
+          <h2>让它慢慢来，我们不催。</h2>
+          <p>
+            护理师会先做状态观察，再决定洗护节奏。害怕吹风、年纪较大、第一次到店的宠物，都会安排更安静的时段。
+          </p>
+        </div>
+        <div class="care-list">
+          <div>进店健康和情绪检查</div>
+          <div>分区吹护，减少噪音压力</div>
+          <div>洗护完成后发送护理建议</div>
+        </div>
+      </section>
+
+      <section id="booking" class="section booking-section">
+        <div class="section-heading">
+          <p class="eyebrow">Booking</p>
+          <h2>预约到店</h2>
+        </div>
+        <form class="booking-form" id="bookingForm">
+          <label>
+            宠物姓名
+            <input name="petName" type="text" placeholder="例如：奶糖" required />
+          </label>
+          <label>
+            宠物类型
+            <select name="petType" required>
+              <option value="">请选择</option>
+              <option>小型犬</option>
+              <option>中大型犬</option>
+              <option>猫咪</option>
+            </select>
+          </label>
+          <label>
+            服务项目
+            <select name="service" required>
+              <option value="">请选择</option>
+              <option>基础香氛洗护</option>
+              <option>精修造型</option>
+              <option>皮毛舒缓护理</option>
+              <option>幼宠适应课</option>
+            </select>
+          </label>
+          <label>
+            联系电话
+            <input name="phone" type="tel" placeholder="用于确认预约" required />
+          </label>
+          <button type="submit">提交预约</button>
+          <p class="form-note" id="formNote" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>泡泡爪宠物洗护店</strong>
+        <p>周一至周日 10:00-20:00 · 上海市暖阳路 18 号</p>
+      </div>
+      <a href="tel:4008880123">400-888-0123</a>
+    </footer>
+
+    <!-- Supabase JS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

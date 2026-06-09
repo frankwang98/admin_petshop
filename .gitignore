@@ -1,0 +1,13 @@
+# 配置敏感信息（配置已外置，但确保不提交）
+# src/config.js
+
+# IDE
+.vscode/
+.idea/
+
+# Mac
+.DS_Store
+
+# Node（如果有）
+node_modules/
+package-lock.json
